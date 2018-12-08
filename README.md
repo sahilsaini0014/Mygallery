@@ -8,7 +8,7 @@ To accomplish something when a thing in the gallery is clicked, an unknown agent
 
 <br>
 There are a couple of factors, including a variety of IDs that reference the pictures saved in the drawable folder.<br>
-Next is the class [Constructor]( https://developer.android.com/reference/java/lang/reflect/Constructor), where the Context for an ImageAdapter instance is defined and saved to a local field. Next, this implements some required methods acquired from BaseAdapter. <br>
+Next is the class [Constructor](https://developer.android.com/reference/java/lang/reflect/Constructor), where the Context for an ImageAdapter instance is defined and saved to a local field. Next, this implements some required methods acquired from BaseAdapter. <br>
 The method takes every necessary step to apply a picture to an ImageView that will be inserted in the Gallery. In this method, the part Context is utilized to make another ImageView. The ImageView is set up by applying an image from the local array of drawable resources, setting the Gallery.LayoutParams tallness and width for the picture, setting the scale to fit the ImageView measurements, and after that at long last setting the foundation to utilize the styleable characteristic gained in the constructor. <br>
 
 ## History:
