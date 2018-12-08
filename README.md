@@ -179,16 +179,17 @@ package com.example.manna.mygallery;
 
 	    }
 	} 
-	```
 
 
 ## Reference
 
-https://developer.xamarin.com/api/type/Android.Widget.Gallery/
+Since I only studied from online website hence I am nming my refrences as following
 
-https://docs.microsoft.com/en-us/xamarin/android/user-interface/controls/gallery
+[Ref1](https://developer.xamarin.com/api/type/Android.Widget.Gallery/)
 
-https://developer.android.com/reference/android/widget/Gallery#summary
+[Ref2](https://docs.microsoft.com/en-us/xamarin/android/user-interface/controls/gallery)
 
-https://www.youtube.com/watch?v=O1DCtbdAxQo
+[Ref3](https://developer.android.com/reference/android/widget/Gallery#summary)
+
+[Ref4](https://www.youtube.com/watch?v=O1DCtbdAxQo)
 
