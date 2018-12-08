@@ -11,6 +11,9 @@ The method takes every necessary step to apply a picture to an ImageView that wi
 ## History:
 This widget was first introduced in Android level 1. Isn’t it amazing! It was one of the first widgets to be introduced in first versions of Android. As the Android kept on updating it was *deprecated* that is was no longer supported in Android 4.1 that is an earlier version of Android Jelly Bean. Gallery, one of the first android widgets was said goodbye. However, other similar scrolling widgets such as HorizontalScrollView and ViewPager are still supported (They belong to the same library). <br>
 
+![cupcake](https://user-images.githubusercontent.com/43186158/49691368-71abd280-fb0e-11e8-9420-c69f89163360.png)
+
+
 ### Major Methods and Attributes 
 I have explained complete usage requirements in the introduction. Gallery belongs to [Gallery.LayoutParams]. Here are the major Methods and attributes:<br>
 
