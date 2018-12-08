@@ -4,6 +4,9 @@ Gallery is a layout widget used to display current selection at the center of th
 (photo)
  Gallery is identified from the layout with FindViewById. The Adapter property is then used to set a custom [ImageAdapter]( https://alvinalexander.com/java/jwarehouse/apps-for-android/Panoramio/src/com/google/android/panoramio/ImageAdapter.java.shtml) as the source for all things to be shown in the gallery. Click here to know about [Adapters]( https://developer.android.com/reference/android/widget/Adapter) more.<br>
 To accomplish something when a thing in the gallery is clicked, an unknown agent is bought in to the ItemClick event. It demonstrates a Toast that shows the file position of the selected thing (the position could be utilized to get the full image for some other task). <br>
+![cupcake](https://user-images.githubusercontent.com/43186158/49691368-71abd280-fb0e-11e8-9420-c69f89163360.png)
+
+<br>
 There are a couple of factors, including a variety of IDs that reference the pictures saved in the drawable folder.<br>
 Next is the class [constructor]( https://developer.android.com/reference/java/lang/reflect/Constructor), where the Context for an ImageAdapter instance is defined and saved to a local field. Next, this implements some required methods acquired from BaseAdapter. <br>
 The method takes every necessary step to apply a picture to an ImageView that will be inserted in the Gallery. In this method, the part Context is utilized to make another ImageView. The ImageView is set up by applying an image from the local array of drawable resources, setting the Gallery.LayoutParams tallness and width for the picture, setting the scale to fit the ImageView measurements, and after that at long last setting the foundation to utilize the styleable characteristic gained in the constructor. <br>
@@ -11,7 +14,7 @@ The method takes every necessary step to apply a picture to an ImageView that wi
 ## History:
 This widget was first introduced in Android level 1. Isn’t it amazing! It was one of the first widgets to be introduced in first versions of Android. As the Android kept on updating it was *deprecated* that is was no longer supported in Android 4.1 that is an earlier version of Android Jelly Bean. Gallery, one of the first android widgets was said goodbye. However, other similar scrolling widgets such as HorizontalScrollView and ViewPager are still supported (They belong to the same library). <br>
 
-![cupcake](https://user-images.githubusercontent.com/43186158/49691368-71abd280-fb0e-11e8-9420-c69f89163360.png)
+![jelly_bean](https://user-images.githubusercontent.com/43186158/49691380-a28c0780-fb0e-11e8-9866-166924ca7e66.jpg)
 
 
 ### Major Methods and Attributes 
