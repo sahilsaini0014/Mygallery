@@ -93,12 +93,12 @@ Packagecom.example.manna.mygallery;
 	resources=objects;
 	context=context;
 	}
-```	
+	
 
 
 ### Main.java
 
-```
+
 package com.example.manna.mygallery;
 	
 
@@ -179,7 +179,7 @@ package com.example.manna.mygallery;
 
 	    }
 	} 
-
+```
 
 ## Reference
 
