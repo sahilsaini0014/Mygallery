@@ -14,24 +14,28 @@ This widget was first introduced in Android level 1. Isn’t it amazing! It was 
 ### Major Methods and Attributes 
 I have explained complete usage requirements in the introduction. Gallery belongs to [Gallery.LayoutParams]. Here are the major Methods and attributes:<br>
 
-*Attributes:
-•	``` android:animationDuration ``` it sets how long animation should run when layout has changed. It uses millisecond as its unit.<br>
+* Attributes:
+<br>
+
+•	```android:animationDuration``` it sets how long animation should run when layout has changed. It uses millisecond as its unit.<br>
 •	``` android:gravity ``` it specifies how an object should position its content, within it’s boundaries on both the X and Y axes.<br>
 •	``` android:spacing ``` it makes space between children.<br>
 •	``` android:entries ``` it is inherited from android.widget.AbsSpinner class. It act as a reference to an array resource that will populate the Spinner. <br>
 
 <br>
 
-*Methods
+* Methods
+<br>
+
 •	``` dispatchKeyEvent(KeyEvent event) ``` It dispactches a key event to the next view on the focus path.<br>
-•	``` dispatchSetSelected(boolean) ``` it dispatch setSelected to all of this View’s children
-•	``` generateLayoutParams ``` It is derieved from ViewGroup.LayoutParams. It returns a new set of layout parametrs based on the supplied attributes set. 
-•	``` onDown(MotionEvent) ``` It tells when tap occurs with down motionEvent.
-•	``` onKeyDown ```It handles left, right and clicking of the image.
-•	``` onFLing ``` It is notified when a fling event occurs with initial onDown MotionEvent and matching up MotionEvent.
-•	``` onTouchEvent (MotionEvent) ``` This method handles touch screen motion events.
-•	``` setgravity ```it tells the alignment of child views.
-•	```` setSpacing ``` It sets the spacing in different items in the gallery like different images.
+•	``` dispatchSetSelected(boolean) ``` it dispatch setSelected to all of this View’s children<br>
+•	``` generateLayoutParams ``` It is derieved from ViewGroup.LayoutParams. It returns a new set of layout parametrs based on the supplied attributes set. <br>
+•	``` onDown(MotionEvent) ``` It tells when tap occurs with down motionEvent.<br>
+•	``` onKeyDown ```It handles left, right and clicking of the image.<br>
+•	``` onFLing ``` It is notified when a fling event occurs with initial onDown MotionEvent and matching up MotionEvent.<br>
+•	``` onTouchEvent (MotionEvent) ``` This method handles touch screen motion events.<br>
+•	``` setgravity ```it tells the alignment of child views.<br>
+•	``` setSpacing ``` It sets the spacing in different items in the gallery like different images.
 
 
 
@@ -88,22 +92,8 @@ Packagecom.example.manna.mygallery;
 	super(context, resource, objects);
 	resources=objects;
 	context=context;
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	} ```
-	
-
-	
+	}
+```	
 
 
 ### Main.java
@@ -188,9 +178,8 @@ package com.example.manna.mygallery;
 	
 
 	    }
-	}
-
-```
+	} 
+	```
 
 
 ## Reference
